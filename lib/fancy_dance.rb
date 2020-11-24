@@ -9,7 +9,7 @@ module FancyDance
             "Look how high I'm jumping!"
         end
 
-        def peroutte 
+        def pirouette 
             "I'm doing a pirouette"
         end
 
@@ -20,8 +20,8 @@ module FancyDance
 
     module ClassMethods
 
-    def metadata 
-        "This class produces objects that loce to dance."
-    end
+        def metadata 
+            "This class produces objects that love to dance."
+        end
     end
 end
